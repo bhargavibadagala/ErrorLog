@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ErrorLogExtractionApp">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="spring-web-4.0.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-web-4.0.1.RELEASE/spring-web-4.0.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-4.0.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-beans-4.0.1.RELEASE/spring-beans-4.0.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2/jstl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-1.7.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/gson-1.7.2/gson-1.7.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-4.0.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-expression-4.0.1.RELEASE/spring-expression-4.0.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-core-1.19.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-core-1.19/jersey-core-1.19">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-4.0.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-context-4.0.1.RELEASE/spring-context-4.0.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsr311-api-1.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jsr311-api-1.1.1/jsr311-api-1.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-4.0.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-aop-4.0.1.RELEASE/spring-aop-4.0.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="json-simple-1.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/json-simple-1.1.1/json-simple-1.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-4.0.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-webmvc-4.0.1.RELEASE/spring-webmvc-4.0.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-4.0.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-core-4.0.1.RELEASE/spring-core-4.0.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-client-1.19.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-client-1.19/jersey-client-1.19">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aopalliance-1.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aopalliance-1.0/aopalliance-1.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.1.1/commons-logging-1.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="ErrorLogExtractionApp"/>
+        <property name="java-output-path" value="/ErrorLogExtractionApp/build/classes"/>
+    </wb-module>
+</project-modules>
